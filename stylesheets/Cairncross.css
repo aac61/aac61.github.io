@@ -55,15 +55,14 @@ li {
     text-align: center;
 }
 
-li.Cairncross-Inline{
-  display: inline;
-  margin: 5%;
-}
+
+
 li.Cairncross-Inline-here{
   display: inline;
   color: #ff33ff;
   margin: 5%;
 }
+
 p{
     margin-bottom: 2em;
 }
@@ -75,23 +74,20 @@ p{
                         
 }
 
-.Cairncross-page-content-container{ text-align: left;
-                                    line-height: 1.5em;
-                                    width: 80%;
-                                    min-width: 375px;
-                                    /* max-width:1200px; */
-                                    margin-left: auto;
-                                    margin-right: auto;
-                                    position: relative;
-                                    min-height: 100vh;
-                                    display: block;
-                                    background-color: white;
-                                    margin-top: .0em;
-                                    /*border-radius: 1em 1em 0 0;*/
-                                    padding-bottom: 4em;
-    }
 
-/* Title */
+.Cairncross-row-top{ 
+            width:100%;
+            background: black;
+            height: .0625em;
+            margin: 0;
+            padding: .0625em 0;
+            align-content: bottom;
+            bottom: 0;
+            position: absolute;
+          }
+
+
+@media(min-width: 785px){
 .Cairncross-title-containter{ 
                          background-color: white;
                          /* position: relative;  Set title and nav to fixed position */
@@ -125,16 +121,83 @@ p{
         font-size: 1.5em;        
     }
 
-.Cairncross-row-top{ 
-            width:100%;
-            background: black;
-            height: .0625em;
-            margin: 0;
-            padding: .0625em 0;
-            align-content: bottom;
-            bottom: 0;
-            position: absolute;
-          }
+.Cairncross-page-content-container{ text-align: left;
+                                    line-height: 1.5em;
+                                    width: 80%;
+                                    min-width: 375px;
+                                    /* max-width:1200px; */
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    position: relative;
+                                    min-height: 100vh;
+                                    display: block;
+                                    background-color: white;
+                                    margin-top: .0em;
+                                    /*border-radius: 1em 1em 0 0;*/
+                                    padding-bottom: 4em;
+    }
+
+    li.Cairncross-Inline{
+  display: inline;
+  margin: 5%;
+}
+}
+
+@media(max-width: 784px){
+.Cairncross-title-containter{ 
+                         background-color: white;
+                         /* position: relative;  Set title and nav to fixed position */
+                         top: 0; /* Position title and nav navbar at the top of the page */
+                         width: 100%; /* Full width */
+                         height: 6em;
+                         z-index: 10;
+                         margin: 0;
+                         padding: 0;
+                         padding-top: 3em;
+                         align-content: center;
+                        position: relative;
+    }
+
+.Cairncross-page-title{
+        padding-top: 0;
+        margin: 0;
+        font-size: 2em;
+        line-height: 1em;
+        text-align: center;
+        color: black;
+    }
+
+.Cairncross-local-navigation{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-content: bottom;
+        bottom: .25em;
+        position: absolute;
+        font-size: 1.25em;        
+    }
+
+.Cairncross-page-content-container{ text-align: left;
+                                    line-height: 1.5em;
+                                    width: 80%;
+                                    min-width: 375px;
+                                    /* max-width:1200px; */
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    position: relative;
+                                    min-height: 100vh;
+                                    display: block;
+                                    background-color: white;
+                                    margin-top: .0em;
+                                    /*border-radius: 1em 1em 0 0;*/
+                                    padding-bottom: 4em;
+    }
+    
+    li.Cairncross-Inline{
+  display: inline;
+  margin: 2.5%;
+}
+}
 
 /* Links */
 /* unvisited link */
