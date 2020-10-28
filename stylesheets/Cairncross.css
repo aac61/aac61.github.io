@@ -1,0 +1,214 @@
+html, textarea { font-family: verdana, arial, sans-serif;
+                 color: black; 
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, Cairncross-page-title {  margin:0 0 0 0;
+                        vertical-align: baseline;
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: .3em; 
+  font-weight: bold
+
+}
+
+h2 {
+  text-align: left;
+  font-size: 1.25em;
+  margin-bottom: 0; 
+  margin-top: 1em; 
+  font-weight: 1.5;
+}
+
+
+.Cairncross-content-container{
+                         text-align: justify;
+                         padding-left: 7.5%;
+                         padding-right: 7.5%;
+                         margin: 0;
+                         padding-bottom: 0;
+                         padding-top: 1.5em;
+                         font-size: 1em;
+}
+
+/* Navigation */
+ul{
+    margin:0;
+    padding:0;
+    margin-top: 1em;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.Cairncross-nav{
+    text-align: center;
+}
+
+li.Cairncross-Inline{
+  display: inline;
+  margin: 5%;
+}
+li.Cairncross-Inline-here{
+  display: inline;
+  color: #ff33ff;
+  margin: 5%;
+}
+p{
+    margin-bottom: 2em;
+}
+
+/* Page */
+.Cairncross-page-container{  /*background-image: linear-gradient( #EE82EE, #c2d1ef);*/
+                        margin: 0;
+                        padding: 0;
+                        
+}
+
+.Cairncross-page-content-container{ text-align: left;
+                                    line-height: 1.5em;
+                                    width: 80%;
+                                    min-width: 375px;
+                                    /* max-width:1200px; */
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    position: relative;
+                                    min-height: 100vh;
+                                    display: block;
+                                    background-color: white;
+                                    margin-top: .0em;
+                                    /*border-radius: 1em 1em 0 0;*/
+                                    padding-bottom: 4em;
+    }
+
+/* Title */
+.Cairncross-title-containter{ 
+                         background-color: white;
+                         /* position: relative;  Set title and nav to fixed position */
+                         top: 0; /* Position title and nav navbar at the top of the page */
+                         width: 100%; /* Full width */
+                         height: 8em;
+                         z-index: 10;
+                         margin: 0;
+                         padding: 0;
+                         padding-top: 3em;
+                         align-content: center;
+                        position: relative;
+    }
+
+.Cairncross-page-title{
+        padding-top: 0;
+        margin: 0;
+        font-size: 3em;
+        line-height: 1em;
+        text-align: center;
+        color: black;
+    }
+
+.Cairncross-local-navigation{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        align-content: bottom;
+        bottom: .25em;
+        position: absolute;
+        font-size: 1.5em;        
+    }
+
+.Cairncross-row-top{ 
+            width:100%;
+            background: black;
+            height: .0625em;
+            margin: 0;
+            padding: .0625em 0;
+            align-content: bottom;
+            bottom: 0;
+            position: absolute;
+          }
+
+/* Links */
+/* unvisited link */
+a:link {
+color: #ff33ff;
+text-decoration: none
+}
+
+/* unvisited link */
+a:visited {
+color: #ff33ff;
+text-decoration: none
+}
+
+.Cairncross-nav a:visited {
+color: dimgray;
+text-decoration: none
+}
+.Cairncross-nav a:link {
+color: dimgray;
+text-decoration: none
+}
+
+.Cairncross-nav a:hover {
+color: #ff33ff;
+text-decoration: none
+}
+
+/* hover link */
+a:hover {
+color: #ff33ff;
+text-decoration: none;
+}
+
+
+/* Dashed list */
+
+ul.Cairncross-dashed-list{
+    list-style-type: none;
+    list-style: outside ; 
+    margin-left: 0; 
+    padding-left: 1em;
+}
+li.Cairncross-dashed-list {
+    padding-left: 1em;
+}
+
+
+/* Contact Table */
+
+
+
+    th, td {
+        padding-right: 2em;
+        vertical-align: top}
+
+  .Cairncross-table-gen{
+        word-break: break-all;
+        white-space: nowrap;
+    }
+
+table.Cairncross-table-other{
+            margin-top: 1em;
+            margin-bottom: 2em;
+}
+
+.Cairncross-table-up-other{
+                vertical-align: top;
+                width: 7em;
+                padding-right: 1em;
+                }
+
+.Cairncross-hanging{
+  padding-left: 3em ;
+  text-indent: -3em ;
+  margin-bottom: 1em;
+}
